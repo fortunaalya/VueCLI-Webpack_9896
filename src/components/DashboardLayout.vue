@@ -35,14 +35,14 @@
 <script>
 export default {
 name: "Dashboard",
-data() {
-    return {
-        items: [
-            { title: "Dashboard", to: "/" },
-            { title: "GD", to: "/gd" },
-        ],
-    };
-},
+    data() {
+        return {
+            items: [
+                { title: "Dashboard", to: "/" },
+                { title: "GD", to: "/gd" },
+            ],
+        };
+    },
 };
 </script>
 <style scoped>

@@ -15,7 +15,7 @@
                 Tambah
             </v-btn>
         </v-card-title>
-    <v-data-table :headers="headers" :items="todos" :search="search">
+        <v-data-table :headers="headers" :items="todos" :search="search">
         <template v-slot:[`item.actions`]="{ item }">
             <v-btn small class="mr-2" @click="editItem(item)">
                 edit
@@ -54,14 +54,14 @@
         </v-container>
     </v-card-text>
     <v-card-actions>
-<v-spacer></v-spacer>
-<v-btn color="blue darken-1" text @click="cancel">
-    Cancel
-</v-btn>
-<v-btn color="blue darken-1" text @click="save">
-    Save
-</v-btn>
-</v-card-actions>
+        <v-spacer></v-spacer>
+        <v-btn color="blue darken-1" text @click="cancel">
+            Cancel
+        </v-btn>
+        <v-btn color="blue darken-1" text @click="save">
+            Save
+        </v-btn>
+    </v-card-actions>
 </v-card>
 </v-dialog>
 </v-main>
