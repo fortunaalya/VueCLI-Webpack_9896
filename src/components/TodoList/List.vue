@@ -9,8 +9,8 @@
           append-icon="mdi-magnify"
           label="Search"
           single-line
-          hide-details
-        ></v-text-field>
+          hide-details>
+        </v-text-field>
         <v-spacer></v-spacer>
         <v-btn color="success" dark @click="dialog = true"> 
             Tambah 
@@ -45,7 +45,7 @@
               label="Priority"
               required
             ></v-select>
-            
+
             <v-textarea
               v-model="formTodo.note"
               label="Note"
