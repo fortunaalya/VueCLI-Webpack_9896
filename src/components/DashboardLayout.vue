@@ -29,7 +29,7 @@
         </v-navigation-drawer>
         <div class="grey lighten-4 fullheight pa-5">
             <router-view></router-view>
-        </div>
+        </div> 
     </div>
 </template>
 <script>
