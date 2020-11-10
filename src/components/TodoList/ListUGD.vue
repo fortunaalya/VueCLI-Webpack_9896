@@ -142,7 +142,7 @@ export default {
                 this.todos[index] = this.tempTodo;
             }
             console.log(this.tempTodo);
-            this.resetForm();
+            this.resetForm(); 
             this.dialog = false;
         },
         resetForm(){
