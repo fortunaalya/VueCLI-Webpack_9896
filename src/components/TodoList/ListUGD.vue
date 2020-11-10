@@ -150,7 +150,7 @@ export default {
                 task: null,
                 priority: null,
                 note: null,
-            };
+            }; 
         },
         editItem(item){
             this.formTodo = item;
